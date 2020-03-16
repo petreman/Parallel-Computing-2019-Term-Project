@@ -1,8 +1,9 @@
-# Algorithm Design and Analysis / Parallel and Distributed Computing 2019 Combined Term Project: Odd-Even Transposition Sort
+# Odd-Even Transposition Sort with PThreads VS Unthreaded QuickSort
 
+Algorithm Design and Analysis / Parallel and Distributed Computing 2019 Combined Term Project. Written in C, this is easily the most code I've ever created for a single project.
+
+## Introduction
 Odd-even transposition sort is a simple sorting algorithm used primarily on parallel processors. It’s a variant of bubble sort, an O(n^2) time complexity algorithm; but could the parallelization of odd-even transposition sort allow for faster execution than this? By creating a parallel implementation of the algorithm in C using PThreads, it’ll be possible to see how speedup and efficiency changes compared to the sequential implementation. But to see how it stands against other sorting algorithms, it’ll be compared to quicksort, a serial sorting algorithm that runs in O(nlgn) in the average case.
-
-This is easily the most code I've ever written for a single project. This project should give good insight into my overall coding style.
 
 ## Files
 - `oets_data.c`
